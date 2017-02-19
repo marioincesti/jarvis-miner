@@ -1,1 +1,1 @@
-*miner*|*minatore*|*zeta*cash*|*zeta*chesh*==say "Uno zeta chesh vale $(jv_pg_zecbtc) bit coin e $(jv_pg_zecusd), Stai minando a $(jv_pg_miner)"
+*miner*|*minatore*|*zeta*cash*|*zeta*chesh*==say "Uno zeta chesh vale $(jv_pg_zecbtc) bit coin,  $(jv_pg_zecusd) dollari, Stai minando a $(jv_pg_miner)"
