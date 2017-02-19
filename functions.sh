@@ -7,12 +7,12 @@
 # XX is a short code for your plugin, ex: ww for Weather Wunderground
 # You can use translations provided in the language folders functions.sh
 jv_pg_miner () {
-	curl http://zcash.flypool.org/api/miner_new/t1NZzHkYzJx8ZzynPSfvR89hWq3GT1TmNtb | jq -r '.reportedHashRate'
+	echo $(curl http://zcash.flypool.org/api/miner_new/t1NZzHkYzJx8ZzynPSfvR89hWq3GT1TmNtb | jq -r '.reportedHashRate')
 }
 jv_pg_zecbtc () {
-	curl https://api.coinmarketcap.com/v1/ticker/zcash/ | jq -r '.[]' | jq -r '.price_btc' | cut -c -6
+	echo $(curl https://api.coinmarketcap.com/v1/ticker/zcash/ | jq -r '.[]' | jq -r '.price_btc' | cut -c -6)
 }
 
 jv_pg_zecusd () {
-	curl https://api.coinmarketcap.com/v1/ticker/zcash/ | jq -r '.[]' | jq -r '.price_usd' | cut -c -4
+	echo $(curl https://api.coinmarketcap.com/v1/ticker/zcash/ | jq -r '.[]' | jq -r '.price_usd' | cut -c -4)
 }
