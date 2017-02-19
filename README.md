@@ -10,11 +10,11 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Bitcoin current price
+Hashrate from mining pool
 ## Usage
 ```
-You: Bitcoin price
-Jarvis: The bitcoin price is 950 euro
+You: Mining
+Jarvis: 600 H/s
 ```
 
 ## Author
