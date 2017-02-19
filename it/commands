@@ -1,1 +1,1 @@
-*bitcoin*|*prezzo*bitcoin*==say "$(jv_pg_bitcoin)"
+*bitcoin*|*prezzo*bitcoin*==say "Il prezzo del bit coin,a è $(jv_pg_bitcoin) euro"
